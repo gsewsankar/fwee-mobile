@@ -6,6 +6,7 @@ const LoginScreen = ({navigation}) => {
         <View style={styles.container}>
             <Text>LoginScreen</Text>
             <Button title="to dashboard" onPress={()=>navigation.navigate("Dashboard")}/>
+            <Button title="to onboard" onPress={()=>navigation.navigate("Onboarding")}/>
         </View>
     )
 }
